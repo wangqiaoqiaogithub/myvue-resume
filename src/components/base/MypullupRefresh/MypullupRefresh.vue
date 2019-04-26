@@ -10,7 +10,6 @@
       <div class="text" v-if="moveState < 2">{{ msText }}</div>
       <div class="wordloading"v-if="moveState ===2"><i class="weui-loading"/> 加载中...</div>
       <div class="wordwancheng" v-if="moveState === 3"><i class="weui-loading"/>加载完成</div>
-      <div class="wordwancheng" v-if="moveState === 4"><i class="weui-loading"/>没有更多数据</div>
     </div>
     <div class="weui-pull-present-box">
       <slot/>
