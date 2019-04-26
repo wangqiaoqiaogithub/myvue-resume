@@ -14,7 +14,7 @@ npm run dev
 # 线上打包命令
 npm run build
 
-# build for production and view the bundle analyzer report
+# 建立捆绑和分析报告
 npm run build --report
 ```
 
