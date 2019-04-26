@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import FastClick from 'fastclick'
 
 Vue.config.productionTip = false
 
+/*引入fastclick插件来解决移动端300ms延迟*/
+FastClick.attach(document.body);
 
 /* eslint-disable no-new */
 new Vue({
