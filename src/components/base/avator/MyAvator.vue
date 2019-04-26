@@ -22,7 +22,7 @@ export default {
             margin: 80px auto 0px
             width: 150px
             height: 150px
-            background-image: url(avator.jpg)
+            background-image: url(/avator.jpg)
             background-size: cover
             border: 2px solid #fff
 
