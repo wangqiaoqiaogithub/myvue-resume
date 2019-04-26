@@ -1,0 +1,197 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video, input {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font-weight: normal;
+     vertical-align: baseline;
+     transition: all 0.6s;
+ }
+
+
+
+
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, menu, nav, section {
+     display: block;
+ }
+ 
+ body {
+     line-height: 1;
+ }
+ 
+ blockquote, q {
+     quotes: none;
+ }
+ 
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: none;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ 
+ /* custom */
+ a {
+     color: #7e8c8d;
+     text-decoration: none;
+     -webkit-backface-visibility: hidden;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 5px;
+     height: 5px;
+ }
+ 
+ ::-webkit-scrollbar-track-piece {
+     background-color: rgba(0, 0, 0, 0.2);
+     -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:vertical {
+     height: 5px;
+     background-color: rgba(125, 125, 125, 0.7);
+     -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:horizontal {
+     width: 5px;
+     background-color: rgba(125, 125, 125, 0.7);
+     -webkit-border-radius: 6px;
+ }
+ 
+ html, body {
+     width: 100%;
+ }
+ 
+ body {
+     -webkit-text-size-adjust: none;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
+ .clearfix:after {   
+    content: ".";     
+    display: block;  
+    clear: both;     
+    visibility: hidden;     
+    height: 0;    
+    font-size:0; 
+}
+.clearfix { zoom:1;}
+@media (max-width: 1000px){
+    .h1_common{
+        font-size: 22px!important;
+    }
+    .avator{
+        margin-top: 25%!important;
+    }
+    .RE_top{
+        font-size: 18px!important;
+        font-weight: bold;
+    }
+    h2,h3,h4{
+        font-size: 18px!important;
+        font-weight: bold;
+    }
+    .ci_img{
+        width: 70%!important;
+        height: 320px!important;
+    }
+    .ci_ul>li{
+        height: 320px!important;
+    }
+    .bfc_nav{
+        width: 100%!important;
+    }
+    .bfc_nav>li{
+        width: 21%!important;
+        display: inline-block;
+        font-size: 15px!important;
+        margin: 2%!important;
+    }
+    .rt_title{
+        font-size: 22px!important;
+    }
+    .rt_percent{
+        margin-top: 5%;
+    }
+    .rt_content{
+        padding: 1px 0px 45px;
+    }
+    .avator_content{
+        width: 100px!important;
+        height: 100px!important;
+    }
+    .rbm_navbar{
+        width: 80%!important;
+    }
+    .skill-item{
+        width: 95%!important;
+        margin: 2% 2.5%!important;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+        -ms-border-radius: 3px;
+    }
+    .keyword{
+        font-size: 16px!important;
+        line-height: 5rem!important;
+    }
+    .at_p{
+        font-size: 14px!important;
+    }
+    .ex_p{
+        font-size: 16px!important;
+        font-weight: bold;
+    }
+    .icon-chahao{
+        line-height: 3rem!important;
+        font-size: 35px!important;
+    }
+    .banner_left{
+        width: 15%!important;
+    }
+    .banner_right{
+        width: 15%!important;
+    }
+    .navul{
+        width:100%!important;
+    }
+    .nbc_bgimage{
+        width: 40px!important;
+        height: 40px!important;
+    }
+    .navul>li{
+        line-height: 35px!important;
+    }
+    .navbar_container{
+        padding: 10px 0px!important;
+    }
+    .bannerbox {
+        width: 70%!important;
+        height: 60%!important;
+    }
+}
