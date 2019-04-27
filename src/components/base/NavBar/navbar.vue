@@ -30,7 +30,9 @@
             }
         },
         activated(){
-            window.addEventListener('scroll',this.handleScroll)//滚动事件
+            var body =  document.documentElement|| document.body;
+            body.addEventListener('scroll',this.handleScroll,true)
+            //向document添加滚动事件
         },
         methods: {
             handleScroll(){
