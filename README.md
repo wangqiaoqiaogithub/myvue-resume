@@ -1,4 +1,4 @@
-# Vue2.x2020—前端开发工程师简历
+# Vue2.x—resume
 
 > A Vue.js project
 
