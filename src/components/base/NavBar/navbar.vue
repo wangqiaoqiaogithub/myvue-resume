@@ -36,8 +36,10 @@
         },
         methods: {
             handleScroll(){
-                let topscroll = document.documentElement.scrollTop; 
-                if(topscroll >= 200){
+                var topscroll = window.pageYOffset ||document.documentElement.scrollTop || document.body.scrollTop;
+                var rbm_navbar = document.querySelector('.rebottommain');
+                var rbmn_offsettop = rbm_navbar.offsetTop; 
+                if(topscroll >= rbmn_offsettop){
                     this.navshow = true
                 }else{
                     this.navshow = false
