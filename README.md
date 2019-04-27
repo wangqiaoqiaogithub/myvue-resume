@@ -10,6 +10,11 @@
 <br/>
 3.若有异常删除此库
 
+
+# 简介
+
+* 该简历封装了包含轮播、下拉刷新、提示框等组件
+
 # 构建安装程序
 
 ``` bash
@@ -25,8 +30,4 @@ npm run build
 # 建立捆绑和分析报告
 npm run build --report
 ```
-# 简介
-
-* 该简历封装了包含轮播、下拉刷新、提示框等组件
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
