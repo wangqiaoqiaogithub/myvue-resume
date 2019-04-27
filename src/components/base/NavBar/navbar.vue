@@ -30,7 +30,7 @@
             }
         },
         activated(){
-            window.addEventListener('scroll',this.handleScroll,true)//滚动事件
+            window.addEventListener('scroll',this.handleScroll)//滚动事件
         },
         methods: {
             handleScroll(){
