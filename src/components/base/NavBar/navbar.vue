@@ -61,9 +61,6 @@
                 this.$emit('wow',index)//this.$emit('定义的函数',函数本身参数)
             }
         },
-        destroyed(){
-            window.removeEventListener('scroll',handleScroll,true)
-        },
         name: 'navbar'
     }
 </script>
