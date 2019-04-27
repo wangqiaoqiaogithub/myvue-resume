@@ -13,7 +13,6 @@ export default {
 </script>
 
 <style lang="stylus">
-  @import '/common/stylus/iconfont.styl';
   #app
     font: 12px/1.5 Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif
     // font-family: 'Avenir', Helvetica, Arial, sans-serif
