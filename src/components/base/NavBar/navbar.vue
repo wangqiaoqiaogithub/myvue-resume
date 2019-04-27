@@ -29,17 +29,15 @@
                 default: 0
             }
         },
-        activated(){
+        created(){
             var body =  document.documentElement|| document.body;
             body.addEventListener('scroll',this.handleScroll,true)
             //向document添加滚动事件
         },
         methods: {
             handleScroll(){
-                let topscroll = document.documentElement.scrollTop;
-                let rbm_navbar = document.querySelector('.rebottommain');
-                let rbmn_offsettop = rbm_navbar.offsetTop; 
-                if(topscroll >= rbmn_offsettop){
+                let topscroll = document.documentElement.scrollTop; 
+                if(topscroll >= 200){
                     this.navshow = true
                 }else{
                     this.navshow = false
