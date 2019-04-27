@@ -29,8 +29,8 @@
                 default: 0
             }
         },
-        created(){
-            document.addEventListener('onscroll',this.handleScroll,true)//滚动事件
+        mounted(){
+            window.addEventListener('onscroll',this.handleScroll,true)//滚动事件
         },
         methods: {
             handleScroll(){
