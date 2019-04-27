@@ -30,7 +30,7 @@
             }
         },
         created(){
-            document.addEventListener('scroll',this.handleScroll,true)//滚动事件
+            document.addEventListener('onscroll',this.handleScroll,true)//滚动事件
         },
         methods: {
             handleScroll(){
@@ -60,6 +60,9 @@
                 this.index = index
                 this.$emit('wow',index)//this.$emit('定义的函数',函数本身参数)
             }
+        },
+        destroyed(){
+            window.removeEventListener('onscroll',handleScroll,true)
         },
         name: 'navbar'
     }
