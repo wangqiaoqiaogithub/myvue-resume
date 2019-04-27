@@ -35,10 +35,11 @@
         },
         methods: {
             handleScroll(){
-                var topscroll = window.pageYOffset ||document.documentElement.scrollTop || document.body.scrollTop;
-                var rbm_navbar = document.querySelector('.rebottommain');
-                var rbmn_offsettop = rbm_navbar.offsetTop; 
-                if(topscroll > rbmn_offsettop){
+                //做一些兼容处理对滚动偏移量
+                let topscroll = window.pageYOffset ||document.documentElement.scrollTop || document.body.scrollTop;
+                let rbm_navbar = document.querySelector('.rebottommain');
+                let rbmn_offsettop = rbm_navbar.offsetTop; 
+                if(topscroll >= rbmn_offsettop){
                     this.navshow = true
                 }else{
                     this.navshow = false
