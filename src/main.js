@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import FastClick from 'fastclick'
-import './common/stylus/iconfont.styl';
+import './common/stylus/iconfont.css';
 
 Vue.config.productionTip = false
 
