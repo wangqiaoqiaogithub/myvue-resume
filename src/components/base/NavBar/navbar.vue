@@ -29,9 +29,8 @@
                 default: 0
             }
         },
-        mounted(){
-            var body =  document.documentElement|| document.body;
-            body.addEventListener('scroll',this.handleScroll)
+        activated(){
+            window.addEventListener('scroll',this.handleScroll)
             //向document添加滚动事件
         },
         methods: {
