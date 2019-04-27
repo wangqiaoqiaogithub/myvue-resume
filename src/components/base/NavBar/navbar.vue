@@ -29,9 +29,9 @@
                 default: 0
             }
         },
-        created(){
+        mounted(){
             var body =  document.documentElement|| document.body;
-            body.addEventListener('scroll',this.handleScroll,true)
+            body.addEventListener('scroll',this.handleScroll)
             //向document添加滚动事件
         },
         methods: {
@@ -39,7 +39,7 @@
                 var topscroll = window.pageYOffset ||document.documentElement.scrollTop || document.body.scrollTop;
                 var rbm_navbar = document.querySelector('.rebottommain');
                 var rbmn_offsettop = rbm_navbar.offsetTop; 
-                if(topscroll >= rbmn_offsettop){
+                if(topscroll > rbmn_offsettop){
                     this.navshow = true
                 }else{
                     this.navshow = false
@@ -62,6 +62,9 @@
                 this.index = index
                 this.$emit('wow',index)//this.$emit('定义的函数',函数本身参数)
             }
+        },
+        destroyed () {
+            window.removeEventListener('scroll', this.handleScroll)
         },
         name: 'navbar'
     }
