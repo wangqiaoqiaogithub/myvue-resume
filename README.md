@@ -15,7 +15,7 @@
 # 简介
 
 * 该简历封装了包含轮播、下拉刷新、提示框等组件
-* 效果演示 https://wangqiaoqiaogithub.github.io/myvue-resume/dis
+* 效果演示 https://wangqiaoqiaogithub.github.io/myvue-resume/dist
 
 # 构建安装程序
 
