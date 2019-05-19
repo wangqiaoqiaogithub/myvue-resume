@@ -6,6 +6,7 @@ import resumemain from '@/components/resumemain/resumemain.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
