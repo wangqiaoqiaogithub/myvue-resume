@@ -8,7 +8,7 @@
       <my-avator></my-avator>
       <div class="resume_top base_background" v-html="stylecode">
       </div>
-      <resume-editor class="resume_bottom base_background" :markdown="markdown"></resume-editor>
+      <resume-editor class="resume_bottom base_background"></resume-editor>
     </div>
     <contact-information @handleclick="handleclick" :showFlag="showFlag"></contact-information>
   </div>
